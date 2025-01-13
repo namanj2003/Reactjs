@@ -25,3 +25,4 @@ yarn-error.log*
 
 #file
 src/Api.js
+src/userlogin/smapleoutput.json

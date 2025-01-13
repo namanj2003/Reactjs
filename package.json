@@ -1,6 +1,7 @@
 {
-  "name": "mernproj",
-  "version": "0.1.0",
+  "homepage": "https://namanj2003.github.io/TechSavvy-Chronicle/",
+  "name": "technews",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@babel/traverse": "^7.23.9",
@@ -25,11 +26,13 @@
     "web-vitals": "^3.5.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "start": "react-scripts start",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -51,5 +54,8 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "Naman Jain",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
