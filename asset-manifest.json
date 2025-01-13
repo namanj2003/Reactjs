@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/The-TechSavvy-Chronicle/static/css/main.94d61270.css",
+    "main.js": "/The-TechSavvy-Chronicle/static/js/main.3e6b38ca.js",
+    "index.html": "/The-TechSavvy-Chronicle/index.html",
+    "main.94d61270.css.map": "/The-TechSavvy-Chronicle/static/css/main.94d61270.css.map",
+    "main.3e6b38ca.js.map": "/The-TechSavvy-Chronicle/static/js/main.3e6b38ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94d61270.css",
+    "static/js/main.3e6b38ca.js"
+  ]
+}
